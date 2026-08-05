@@ -1,0 +1,21 @@
+.links{
+    font-size: 10px;
+    display: flex;
+    gap: 20px;
+    color: #55D4A3;
+
+}
+body{
+    background-color: #0D2448;
+}
+.logo{
+    width: 100px;
+    margin-left: 200px;
+    
+    
+}
+h1{
+    display: inline-block;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
