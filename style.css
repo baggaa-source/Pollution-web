@@ -9,13 +9,21 @@ body{
     background-color: #0D2448;
 }
 .logo{
-    width: 100px;
+    width: 120px;
     margin-left: 200px;
     
     
 }
 h1{
-    display: inline-block;
     font-size: 70px;
-    margin-bottom: 50px;
+    margin-left: 60px;
+    
+}
+a{
+    color: #55D4A3;
+}
+.text1{
+    margin-left: 60px;
+    margin-top: -20px;
+    width: 60%;
 }
