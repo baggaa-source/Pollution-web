@@ -60,3 +60,7 @@ body{
 a:hover{
     color: #55D4A3;
 }
+.turtle{
+    width: 30%;
+    height: auto;
+}
