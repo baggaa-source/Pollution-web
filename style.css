@@ -1,7 +1,8 @@
 .links{
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
-    gap: 30px;
+    gap: 50px;
+    margin-left: 100px;
 }
 body{
     background-color: #0D2448;
@@ -55,9 +56,10 @@ body{
 }
 
 .fish{
-    margin-top: -400px;
-    margin-left: 1000px;
+    margin-top: -500px;
+    margin-left: 1300px;
     scale: 60%;
+    border-radius: 30px;
 }
 a:hover{
     color: #55D4A3;
@@ -73,18 +75,33 @@ a:hover{
     scale: 50%;
     border-radius: 30px;
     margin-top: -200px;
+
 }
 .img2{
     width: 250px;
-    height: 450px;
+    height: 455px;
     border-radius: 30px;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-left: -225px;
 }
 .img3{
     width: 250px;
-    height: 450px;
+    height: 455px;
     border-radius: 30px;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-left: -590px;
 }
+.homeinfo{
+    color: whitesmoke;
+    font-size: 20px;
 
 
+}
+strong{
+    color: #55D4A3;
+    
+}
+.info{
+    display: flex;
+    gap: 20px;
+}
