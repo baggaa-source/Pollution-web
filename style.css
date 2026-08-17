@@ -53,6 +53,7 @@ a{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
 }
 
 .fish{
@@ -63,6 +64,7 @@ body{
 }
 a:hover{
     color: #55D4A3;
+    text-decoration: underline;
 }
 .column{
     display: grid;
@@ -75,6 +77,7 @@ a:hover{
     scale: 50%;
     border-radius: 30px;
     margin-top: -200px;
+    margin-left: -25px;
 
 }
 .img2{
@@ -82,18 +85,21 @@ a:hover{
     height: 455px;
     border-radius: 30px;
     margin-top: 20px;
-    margin-left: -225px;
+    margin-left: 700px;
 }
 .img3{
     width: 250px;
     height: 455px;
     border-radius: 30px;
     margin-top: 20px;
-    margin-left: -590px;
+    margin-left: -1060px;
 }
 .homeinfo{
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 25px;
+    margin-top: 50px;
+    max-width: 30ch;
+
 
 
 }
@@ -103,5 +109,47 @@ strong{
 }
 .info{
     display: flex;
-    gap: 20px;
+    gap: 60px;
+}
+footer{
+    background-color: #55D4A3;
+    height: 100px;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    width: 95%;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.footerinfo{
+    font-size: 15px;
+}
+.text2{
+    margin-left: 250px;
+    margin-top: -30px;
+    width: 50%;
+    color: whitesmoke;
+    font-size: 45px;
+    font-weight: 700;
+
+
+}
+.diagram{
+    border-radius: 20px;
+    margin-left: 250px;
+    height: 50%;
+    width: 35%;
+}
+.diagram2{
+    border-radius: 20px;
+    margin-left: 250px;
+
+}
+.diagramgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
 }
