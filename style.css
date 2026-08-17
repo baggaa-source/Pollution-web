@@ -144,12 +144,9 @@ footer{
 }
 .diagram2{
     border-radius: 20px;
-    margin-left: 250px;
-
+    margin-left: 35px;
 }
-.diagramgrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-
+.diagraminline{
+    display: flex;
+    align-items: flex-start;
 }
