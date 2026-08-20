@@ -145,8 +145,19 @@ footer{
 .diagram2{
     border-radius: 20px;
     margin-left: 35px;
+    padding: 0;
 }
 .diagraminline{
     display: flex;
     align-items: flex-start;
+}
+.circle{
+    width: 25%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 1000px;
+    margin-top: -1100px;
+
+
 }
